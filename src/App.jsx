@@ -20,7 +20,7 @@ background:  `linear-gradient(117deg, rgba(0,0,0,1) 0%, rgba(47,222,245,1) 0%, r
       method: 'get',
       url: 'https://youtube-mp36.p.rapidapi.com/dl',
       headers: {
-        'X-RapidAPI-Key': 'b888c31785msh3392a2f5e6877bdp1235a5jsn4d190c392e3a',
+        'X-RapidAPI-Key': import.meta.env.VITE_RAPID_API_KEY,
     'X-RapidAPI-Host': 'youtube-mp36.p.rapidapi.com'
       },
       params: {
